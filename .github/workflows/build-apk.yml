@@ -28,7 +28,7 @@ jobs:
       - name: Descomprimir proyecto
         run: |
           mkdir proyecto
-          unzip -q Under7SignalMonitor_v4_5Indices.zip -d proyecto
+          unzip -q Under7SignalMonitor_v5_FixConexion.zip -d proyecto
 
       - name: Compilar APK
         working-directory: proyecto/Under7SignalMonitor
